@@ -1,0 +1,162 @@
+:root {
+    --primary: #2962ff;
+    --secondary: #00c853;
+    --error: #d32f2f;
+    --background: #f5f7fb;
+    --text: #2d3436;
+}
+
+/* Transaction Header */
+.transaction-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.transaction-header h2 {
+    font-size: 1.5rem;
+    color: var(--text);
+}
+
+.transaction-header button {
+    background: var(--primary);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: opacity 0.2s;
+}
+
+.transaction-header button:hover {
+    opacity: 0.9;
+}
+
+/* Transaction Form */
+.transaction-form {
+    display: none;
+    margin-bottom: 2rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.transaction-form.active {
+    display: block;
+}
+
+.transaction-form form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.transaction-form input,
+.transaction-form select {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.transaction-form button {
+    background: var(--primary);
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: opacity 0.2s;
+}
+
+.transaction-form button[type="button"] {
+    background: #ddd;
+    color: var(--text);
+}
+
+.transaction-form button:hover {
+    opacity: 0.9;
+}
+
+/* Transaction Table */
+.transaction-table {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    overflow-x: auto;
+}
+
+.transaction-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transaction-table th,
+.transaction-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.transaction-table th {
+    background: var(--background);
+    font-weight: 600;
+}
+
+.transaction-table tr:hover {
+    background: var(--background);
+}
+
+.txn-type {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+
+.txn-type.income {
+    background: #e8f5e9;
+    color: var(--secondary);
+}
+
+.txn-type.expense {
+    background: #ffebee;
+    color: var(--error);
+}
+
+.transaction-table button {
+    padding: 0.5rem 1rem;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.transaction-table button:hover {
+    opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .transaction-form form {
+        grid-template-columns: 1fr;
+    }
+
+    .transaction-table th,
+    .transaction-table td {
+        padding: 0.75rem;
+    }
+
+    .transaction-table button {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+}

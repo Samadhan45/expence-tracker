@@ -1,0 +1,96 @@
+:root {
+    --primary: #2962ff;
+    --error: #d32f2f;
+    --success: #00c853;
+    --background: #f5f7fb;
+    --text: #2d3436;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--background);
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.auth-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 350px;
+}
+
+.form-toggle {
+    display: flex;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+}
+
+.form-toggle button {
+    flex: 1;
+    padding: 0.75rem;
+    border: none;
+    background: #eee;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.form-toggle button.active {
+    background: var(--primary);
+    color: white;
+}
+
+.auth-form {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.auth-form.active {
+    display: flex;
+}
+
+.auth-form input {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.auth-form button {
+    background: var(--primary);
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: opacity 0.2s;
+}
+
+.auth-form button:hover {
+    opacity: 0.9;
+}
+
+.message {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    border-radius: 6px;
+    display: none;
+}
+
+.message.success {
+    background: #e8f5e9;
+    color: var(--success);
+}
+
+.message.error {
+    background: #ffebee;
+    color: var(--error);
+}
