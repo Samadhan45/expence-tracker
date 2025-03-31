@@ -1,52 +1,59 @@
-# Kharcha - Personal Finance Tracker
+# Portfolio Website
 
-![Kharcha](https://samadhan45.github.io/expence-tracker/)
+![Portfolio Screenshot](images/screenshot.jpg)
+![Additional Screenshot](images/screenshot1.jpg)
 
-## About the Project
-Kharcha is a personal finance management web application designed to help users track their expenses efficiently. The application provides an intuitive interface to log transactions, visualize spending patterns, and stay within budget limits.
+Welcome to my portfolio website! This website showcases my skills, projects, and experience as a full-stack developer.
+
+## Live Website
+
+[Visit My Portfolio](https://samadhan45.github.io/portfolio/)
+
+## About
+This portfolio website is designed to highlight my work and expertise in web development. It features an overview of my projects, skills, and contact information.
 
 ## Features
-- Add, edit, and delete transactions
-- Categorize expenses for better insights
-- View transaction history
-- Generate financial reports with graphs
-- User-friendly interface with responsive design
+- Responsive design for all screen sizes
+- Detailed project showcase
+- Contact section for inquiries
+- Smooth animations and UI effects
 
 ## Technologies Used
-- Frontend: ReactJS, HTML, CSS, JavaScript
-- Backend: Django (if applicable)
-- Database: SQLite / PostgreSQL (if applicable)
-- Charting Library: Recharts for data visualization
+- HTML
+- CSS
+- JavaScript
+- ReactJS
+- Bootstrap/Tailwind
 
-## Live Demo
-[Click here to access the project](https://samadhan45.github.io/expence-tracker/)
+## Installation
+To run this project locally, follow these steps:
 
-## Installation & Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/samadhan45/expence-tracker.git
+   git clone https://github.com/samadhan45/portfolio.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd expence-tracker
+   cd portfolio
    ```
-3. Install dependencies:
-   ```sh
-   npm install
-   ```
-4. Start the development server:
-   ```sh
-   npm start
-   ```
+3. Open `index.html` in your browser or use a local server to run the website.
 
-## Contributing
-Contributions are welcome! If you find any issues or have suggestions, feel free to create a pull request or open an issue.
+## How to Use
+1. Click the live website link above to explore my portfolio.
+2. Navigate through different sections to learn more about my work.
+3. Use the contact section to reach out for collaboration or inquiries.
 
-## License
-This project is licensed under the MIT License.
+## Future Improvements
+- Adding more projects
+- Implementing a blog section
+- Enhancing UI/UX with more animations
+
+## Contact
+Feel free to reach out for any project collaboration or inquiries.
+
+Email: samadhankadam002@gmail.com
+LinkedIn: [https://linkedin.com/in/samadhankadam31a](https://linkedin.com/in/samadhankadam31a)
+GitHub: [Your GitHub Profile]
 
 ---
-
-### Contact
-For any inquiries or collaboration, reach out to me via [LinkedIn](https://www.linkedin.com/in/samadhan45/) or email at samadhankadam002@gmail.com.
-
+Thank you for visiting my portfolio!
