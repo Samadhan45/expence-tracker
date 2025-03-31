@@ -1,7 +1,6 @@
 # Portfolio Website
 
-![Portfolio Screenshot](images/screenshot.jpg)
-![Additional Screenshot](images/screenshot1.jpg)
+![Additional Screenshot](screenshot1.jpg)
 
 Welcome to my portfolio website! This website showcases my skills, projects, and experience as a full-stack developer.
 
